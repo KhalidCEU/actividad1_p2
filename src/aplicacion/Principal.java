@@ -23,7 +23,6 @@ public class Principal {
         // Desviacion tipica elementos
         // Fuente teoria : https://www.superprof.es/apuntes/escolar/matematicas/estadistica/descriptiva/desviacion-tipica.html
         int[] listaNumeros2 = {9, 3, 8, 8, 9, 8, 9, 18};
-        System.out.println("Media elementos lista: " + Mates.desviacionElementosLista(listaNumeros2));
-
+        System.out.println("Desviación elementos lista: " + Mates.desviacionElementosLista(listaNumeros2));
     }
 }
