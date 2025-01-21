@@ -3,7 +3,7 @@
 Este ejercicio tiene como fin hacer uso de **metodos iterativos** en Java mediante funciones
 matematicas.
 
-El **método main** con las llamadas a los métodos estaticos y los parametros de test, se encuentra en el fichero [Principal.java]((/src/aplicacion/Principal.java)), y las funciones matématicas, en el fichero [Mates.java](/src/dominio/Mates.java).
+El **método main** con las llamadas a los métodos estaticos y los parametros de test, se encuentra en el fichero [Principal.java](/src/aplicacion/Principal.java), y las funciones matématicas, en el fichero [Mates.java](/src/dominio/Mates.java).
 
 ### Uso
 
