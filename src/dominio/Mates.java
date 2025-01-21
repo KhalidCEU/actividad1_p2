@@ -140,7 +140,7 @@ public class Mates {
         }
 
         if (lista1.length != lista2.length) {
-            System.out.println("Las listas deben ser del mismo de tamaño");
+            System.out.println("Las listas deben ser del mismo tamaño");
             System.exit(1);
         }
 
