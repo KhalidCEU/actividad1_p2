@@ -1,5 +1,6 @@
 
 package dominio;
+import java.util.ArrayList;
 
 public class Mates {
 
@@ -76,6 +77,54 @@ public class Mates {
         double desviacion = Math.sqrt(varianza);
 
         return desviacion;
+    }
+
+    public static int sumaParesHastaN(int nb) {
+        int resultado = 0;
+
+        for (int i = nb; i >= 2; i--) {
+            if (i % 2 == 0) {
+                resultado += i;
+            }
+        }
+
+        return resultado;
+    }
+
+    public static int sumaParesElementosLista(int[] lista) {
+        int resultado = 0;
+
+        for (int nb : lista) {
+            if (nb % 2 == 0) {
+                resultado += nb;
+            }
+        }
+
+        return resultado;
+    }
+
+    public static ArrayList<Integer> obtenerListaPar(int[] lista) {
+        ArrayList<Integer> listaPar = new ArrayList<Integer>();
+
+        for (int nb : lista) {
+            if (nb >= 2 && nb % 2 == 0) {
+                listaPar.add(nb);
+            }
+        }
+
+        return listaPar;
+    }
+
+    public static ArrayList<Integer> obtenerListaParHastaN(int nb) {
+        ArrayList<Integer> listaPar = new ArrayList<Integer>();
+
+        for (int i = nb; i >= 2; i--) {
+            if (i % 2 == 0) {
+                listaPar.add(i);
+            }
+        }
+
+        return listaPar;
     }
 
 }

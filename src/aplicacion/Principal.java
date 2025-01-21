@@ -24,5 +24,17 @@ public class Principal {
         // Fuente teoria : https://www.superprof.es/apuntes/escolar/matematicas/estadistica/descriptiva/desviacion-tipica.html
         int[] listaNumeros2 = {9, 3, 8, 8, 9, 8, 9, 18};
         System.out.println("Desviación elementos lista: " + Mates.desviacionElementosLista(listaNumeros2));
+
+        // Suma pares en n numeros
+        System.out.println("Suma pares: " + Mates.sumaParesHastaN(9));
+
+        // Suma pares de una lista
+        System.out.println("Suma pares (lista): " + Mates.sumaParesElementosLista(listaNumeros));
+
+        // Obtener pares de una lista
+        System.out.println("Lista pares: " + Mates.obtenerListaPar(listaNumeros));
+
+        // Obtener pares de numeros hasta n
+        System.out.println("Lista pares 2: " + Mates.obtenerListaParHastaN(9));
     }
 }
