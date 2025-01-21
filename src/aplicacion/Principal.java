@@ -36,5 +36,10 @@ public class Principal {
 
         // Obtener pares de numeros hasta n
         System.out.println("Lista pares 2: " + Mates.obtenerListaParHastaN(9));
+
+        // Obtener pares de numeros hasta n
+        int[] listaNumeros3 = {1, 2, 3};
+        int[] listaNumeros4 = {2, 4, 6};
+        System.out.println("Producto escalar: " + Mates.productoEscalarListas(listaNumeros3, listaNumeros4));
     }
 }

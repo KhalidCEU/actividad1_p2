@@ -131,4 +131,25 @@ public class Mates {
         return listaPar;
     }
 
+    // Producto escalar de dos listas no vacias y del mismo tamaño
+    public static int productoEscalarListas(int[] lista1, int[] lista2) {
+        int resultado = 0;
+
+        if (lista1.length == 0 || lista2.length == 0) {
+            System.out.println("Ninguna de las 2 listas puede estar vacía !");
+            System.exit(1);
+        }
+
+        if (lista1.length != lista2.length) {
+            System.out.println("Las listas deben ser del mismo de tamaño");
+            System.exit(1);
+        }
+
+        for(int i = 0; i < lista1.length; i++) {
+            resultado += lista1[i] * lista2[i];
+        }
+
+        return resultado;
+    }
+
 }
