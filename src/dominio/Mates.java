@@ -79,6 +79,7 @@ public class Mates {
         return desviacion;
     }
 
+    // Suma de numeros pares hasta N
     public static int sumaParesHastaN(int nb) {
         int resultado = 0;
 
@@ -91,6 +92,7 @@ public class Mates {
         return resultado;
     }
 
+    // Suma de elementos pares en una lista
     public static int sumaParesElementosLista(int[] lista) {
         int resultado = 0;
 
@@ -103,6 +105,7 @@ public class Mates {
         return resultado;
     }
 
+    // Lista de numeros pares de una lista dada
     public static ArrayList<Integer> obtenerListaPar(int[] lista) {
         ArrayList<Integer> listaPar = new ArrayList<Integer>();
 
@@ -115,6 +118,7 @@ public class Mates {
         return listaPar;
     }
 
+    // Lista de numeros pares hasta N (en orden descendiente)
     public static ArrayList<Integer> obtenerListaParHastaN(int nb) {
         ArrayList<Integer> listaPar = new ArrayList<Integer>();
 
