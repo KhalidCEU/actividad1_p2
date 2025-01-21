@@ -1,4 +1,3 @@
-
 package dominio;
 import java.util.ArrayList;
 
@@ -151,5 +150,4 @@ public class Mates {
 
         return resultado;
     }
-
 }
